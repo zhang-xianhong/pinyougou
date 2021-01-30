@@ -1,0 +1,385 @@
+/* main start */
+
+.main {
+    width: 980px;
+    height: 440px;
+    /* background-color: pink; */
+    margin-left: 219px;
+    margin-top: 10px;
+}
+
+.focus {
+    position: relative;
+    height: 440px;
+    width: 720px;
+    background: purple;
+}
+
+.arrow_l,
+.arrow_r {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 24px;
+    height: 40px;
+    background: rgba(0, 0, 0, 0.3);
+    font-family: 'icomoon';
+    font-size: 18px;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+}
+
+.arrow_r {
+    right: 0;
+}
+
+.focus img {
+    width: 720px;
+    height: 440px;
+}
+
+.circle {
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+}
+
+.circle li {
+    float: left;
+    width: 8px;
+    height: 8px;
+    /* background-color: #fff; */
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    margin: 0 3px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.circle .current {
+    background-color: #fff;
+}
+
+.newflash {
+    width: 250px;
+    height: 440px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+
+.fastreading {
+    box-sizing: border-box;
+    width: 100%;
+    height: 158px;
+    /* background-color: purple; */
+    border-bottom: 1px solid #ccc;
+}
+
+.fastreading_top {
+    height: 30px;
+    border-bottom: 1px dotted #ccc;
+    padding: 0 15px;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.fastreading_top a {
+    float: right;
+    font-size: 12px;
+}
+
+.fastreading_top a span {
+    font-size: 14px;
+    font-family: 'icomoon';
+    vertical-align: middle;
+}
+
+.fastreading_bottom {
+    padding: 10px 0 0 15px;
+}
+
+.fastreading_bottom li {
+    height: 22px;
+    width: 230px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.lifeservice {
+    width: 250px;
+    height: 206px;
+}
+
+.lifeservice ul {
+    width: 250px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lifeservice li {
+    flex: 25%;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+.lifeservice li:nth-child(4),
+.lifeservice li:nth-child(8),
+.lifeservice li:nth-child(12) {
+    border-right: none;
+}
+
+.lifeservice a {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lifeservice [class^=lifeservice_icon] {
+    width: 24px;
+    height: 24px;
+    background: url(../img/icons.png) no-repeat -17px -17px;
+    margin-bottom: 5px;
+}
+
+.lifeservice .lifeservice_icon-icon2 {
+    background-position: -79px -17px;
+}
+
+.lifeservice .lifeservice_icon-icon3 {
+    background-position: -141px -17px;
+}
+
+.lifeservice .lifeservice_icon-icon4 {
+    background-position: -203px -17px;
+}
+
+.lifeservice .lifeservice_icon-icon5 {
+    background-position: -17px -89px;
+}
+
+.lifeservice .lifeservice_icon-icon6 {
+    background-position: -79px -89px;
+}
+
+.lifeservice .lifeservice_icon-icon7 {
+    background-position: -141px -89px;
+}
+
+.lifeservice .lifeservice_icon-icon8 {
+    background-position: -203px -89px;
+}
+
+.lifeservice .lifeservice_icon-icon9 {
+    background-position: -17px -159px;
+}
+
+.lifeservice .lifeservice_icon-icon10 {
+    background-position: -79px -159px;
+}
+
+.lifeservice .lifeservice_icon-icon11 {
+    background-position: -141px -159px;
+}
+
+.lifeservice .lifeservice_icon-icon12 {
+    background-position: -203px -159px;
+}
+
+.bargain {
+    width: 250px;
+    margin-top: 2px;
+    box-sizing: border-box;
+}
+
+.bargain img {
+    width: 100%;
+    height: 73px;
+    margin-left: -1px;
+}
+
+
+/* main end */
+
+
+/* 推荐服务模块 start */
+
+.recommend {
+    margin-top: 10px;
+    overflow: hidden;
+    /* height: 163px; */
+}
+
+.recom_hd {
+    width: 200px;
+    height: 163px;
+    /* line-height: 163px; */
+    text-align: center;
+    background-color: #5c5251;
+}
+
+.recom_hd img {
+    margin: 30px 0 15px 0;
+}
+
+.recom_hd h3 {
+    font-size: 18px;
+    color: #fff;
+    font-weight: normal;
+}
+
+.recom_bd {
+    display: flex;
+    background-color: #ebebeb;
+    height: 163px;
+    box-sizing: border-box;
+}
+
+.recom_bd li {
+    flex: 1;
+    height: 145px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    border-right: 1px solid #ccc;
+}
+
+.recom_bd li:last-child {
+    border-right: none;
+}
+
+.recom_bd li img {
+    width: 100%;
+}
+
+
+/* 推荐服务模块 end */
+
+
+/* 楼层区 floor start */
+
+.jiadian {
+    /* height: 392px; */
+    overflow: hidden;
+}
+
+.box_hd {
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 2px solid #c81623;
+    margin-top: 20px;
+}
+
+.box_hd h3 {
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+}
+
+.tab_list li {
+    float: left;
+}
+
+.tab_list li::after {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 16px;
+    background-color: #666;
+    vertical-align: middle;
+}
+
+.tab_list li:last-child::after {
+    visibility: hidden;
+}
+
+.tab_list li a {
+    margin: 0 15px;
+}
+
+.box_bd {
+    height: 360px;
+    /* background-color: pink; */
+}
+
+.tab_con_li1 {
+    width: 209px;
+    background-color: #f9f9f9;
+}
+
+.tab_con_li2 {
+    width: 329px;
+}
+
+.tab_con_li3 {
+    width: 219px;
+    border-right: 1px solid #ccc;
+}
+
+.tab_con_li4 {
+    width: 220px;
+    border-right: 1px solid #ccc;
+}
+
+.tab_con li {
+    float: left;
+    height: 360px;
+}
+
+.tab_con_item {
+    border-bottom: 1px solid #ccc;
+}
+
+.tab_con_list {
+    overflow: hidden;
+    /* 清除浮动 */
+    margin-bottom: 15px;
+}
+
+.tab_con_list li {
+    width: 86px;
+    height: 32px;
+    line-height: 32px;
+    border-top: 1px solid #ccc;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.box_bd li {
+    overflow: hidden;
+}
+
+.box_bd .tab_con img {
+    /* 过渡写在本身上，谁做动画给谁加 */
+    /* display: block; */
+    transition: all 0.3s;
+}
+
+.box_bd .tab_con img:hover {
+    /* 鼠标经过图片往右走8px */
+    margin-left: 8px;
+}
+
+.shouji {
+    /* margin-top: 20px; */
+    /* height: 392px; */
+    overflow: hidden;
+}
+
+
+/* 楼层区 floor end */
+
+
+/* 家用电器
+收集通讯
+电脑办公
+家居家具
+生活用品
+运动户外
+汽车用品
+食品酒类
+医药保健
+图书音像
+金融亲票 */

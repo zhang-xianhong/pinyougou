@@ -1,0 +1,231 @@
+    /* 公共部分的CSS样式 */
+    
+    body {
+        height: 2500px;
+    }
+    
+    *,
+    ul {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .w {
+        width: 1200px;
+        margin: 0 auto;
+    }
+    
+    .fl {
+        float: left;
+    }
+    
+    .fr {
+        float: right;
+    }
+    
+    .shortcut {
+        height: 31px;
+        background: #f1f1f1;
+        line-height: 31px;
+    }
+    
+    .shortcut li {
+        float: left;
+    }
+    
+    .style-red {
+        color: #c81623;
+    }
+    
+    @font-face {
+        /*1．这个字体名称要注意icomoon*/
+        font-family: 'icomoon';
+        /*2.一定要注意路径的问题*/
+        src: url('../fonts/icomoon.eot?7kkyc2');
+        src: url('../fonts/icomoon.eot?7kkyc2#iefix ') format( 'embedded-opentype'), url('../fonts/icomoon.ttf?7kkyc2 ') format( 'truetype '), url('../fonts/icomoon.woff?7kkyc2 ') format( 'woff'), url('../fonts/icomoon.svg?7kkyc2#icomoon ') format( 'svg');
+        font-weight: normal;
+        font-styLe: normal;
+    }
+    
+    .fr .spacer {
+        width: 1px;
+        height: 12px;
+        background: #666;
+        margin: 9px 12px 0;
+    }
+    
+    .fr .icomoon {
+        font-family: 'icomoon';
+        font-size: 16px;
+        line-height: 26px;
+    }
+    /* header start */
+    
+    header {
+        height: 105px;
+        /* background: pink; */
+        position: relative;
+    }
+    
+    .logo {
+        position: absolute;
+        top: 25px;
+        left: 0;
+        height: 56px;
+        width: 175px;
+    }
+    
+    .logo a {
+        position: absolute;
+        height: 56px;
+        width: 175px;
+        background: url(../img/logo.png) no-repeat;
+        font-size: 0;
+    }
+    
+    .search {
+        position: absolute;
+        top: 25px;
+        left: 348px;
+    }
+    
+    .search .text {
+        float: left;
+        width: 455px;
+        height: 32px;
+        border: 2px solid #b1191a;
+        color: #ccc;
+        padding-left: 10px;
+        box-sizing: border-box;
+    }
+    
+    .search .btn {
+        float: left;
+        width: 82px;
+        height: 32px;
+        background-color: #b1191a;
+        border: 0;
+        font-size: 16px;
+        color: #fff;
+    }
+    
+    .hotwords {
+        position: absolute;
+        left: 348px;
+        top: 65px;
+    }
+    
+    .hotwords a {
+        margin: 0 6px;
+    }
+    
+    .shopcar {
+        position: absolute;
+        right: 64px;
+        top: 25px;
+        width: 138px;
+        height: 34px;
+        border: 1px solid #dfdfdf;
+        background-color: #f7f7f7;
+        line-height: 34px;
+        text-align: center;
+    }
+    
+    .car {
+        font-family: 'icomoon';
+        color: #da5555;
+    }
+    
+    .arrow {
+        font-family: 'icomoon';
+        margin-left: 5px;
+    }
+    
+    .count {
+        position: absolute;
+        top: -5px;
+        left: 100px;
+        background-color: #e60012;
+        height: 14px;
+        padding: 0 3px;
+        line-height: 14px;
+        color: #fff;
+        border-radius: 50% 50% 50% 0;
+    }
+    /* header end */
+    /* nav start */
+    
+    .nav {
+        height: 45px;
+        border-bottom: 2px solid #b1191a;
+    }
+    
+    .dropdown {
+        width: 209px;
+        height: 45px;
+    }
+    
+    .dropdown .dt {
+        /* width: 100%; */
+        height: 100%;
+        background-color: #b1191a;
+        font-size: 16px;
+        color: #fff;
+        text-align: center;
+        line-height: 45px;
+    }
+    
+    .dropdown .dd {
+        height: 450px;
+        background-color: #c81623;
+        margin-top: 2px;
+    }
+    
+    .menu_item {
+        height: 25px;
+        line-height: 25px;
+        padding-left: 13px;
+        transition: all 0.3s;
+    }
+    
+    .menu_item:hover {
+        background: rgba(0, 0, 0, 0.2);
+        padding-left: 18px;
+    }
+    
+    .menu_item a {
+        font-size: 14px;
+        color: #fff;
+    }
+    
+    .menu_item span {
+        color: #fff;
+    }
+    
+    .arrow2 {
+        float: right;
+        font-family: "icomoon";
+        color: #fff;
+        font-size: 14px;
+        padding-right: 10px;
+    }
+    /* 右侧 */
+    
+    .navitems {
+        margin-left: 10px;
+        /* background-color: pink; */
+    }
+    
+    .navitems li {
+        float: left;
+    }
+    
+    .navitems li a {
+        /* float: left; */
+        display: block;
+        height: 45px;
+        padding: 0 25px;
+        line-height: 45px;
+        font-size: 16px;
+    }
+    /* nav end */
